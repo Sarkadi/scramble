@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-        string sor=" My first try to switching  ";
+        string sor=" My first, try to? switching  ";
         cout <<sor  << endl;
         cout <<mondat(sor)  << endl;
 
-        sor=" My se  cond try to swit   ching   ";
+        sor=" My se  cond try to swit-ching   ";
         cout <<sor  << endl;
         cout <<mondat(sor)  << endl;
 

@@ -42,7 +42,7 @@ string mondat(string proba)
         {
             if (i==0)
             {
-                                if(proba[i]==' ')
+                                if(proba[i]==' ' | proba[i]=='!' | proba[i]=='?' | proba[i]==',' | proba[i]==';' | proba[i]==':' | proba[i]=='-' | proba[i]=='_')
                                 {
                                     j=szkeres(proba,i);
 
@@ -59,7 +59,7 @@ string mondat(string proba)
                                     }
             }
 
-            else if (proba[i]==' ')
+            else if (proba[i]==' ' | proba[i]=='!' | proba[i]=='?' | proba[i]==',' | proba[i]==';' | proba[i]==':' | proba[i]=='-' | proba[i]=='_')
 
             {
 
